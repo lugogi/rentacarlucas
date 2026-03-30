@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1100px;
+    margin: 20px auto;
+    padding: 0 12px;
+}
+
+nav {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+a { text-decoration: none; color: #0a58ca; }
+a:hover { text-decoration: underline; }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #d0d0d0;
+    padding: 8px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.card {
+    max-width: 520px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+input, select, button {
+    padding: 8px;
+    font-size: 14px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.flash {
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.flash.success {
+    background: #d1fae5;
+}
+
+.flash.error {
+    background: #fee2e2;
+}
